@@ -17,7 +17,7 @@ import { Bls12381ToBbsRequest, BbsKeyPair } from "./types";
  * @ignore
  */
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const path = require("path");
+const path = require("react-native-path");
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const bbs = require(path.resolve(path.join(__dirname, "../native/index.node")));
 
